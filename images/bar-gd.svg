@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="16998 3878 300 6">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.2;
+      }
+    </style>
+  </defs>
+  <g id="progress_light" transform="translate(16998 3878)">
+    <g id="determinate_bar" data-name="determinate bar">
+      <rect id="rectangle" class="cls-1" width="300" height="6"/>
+      <path id="Path_323" data-name="Path 323" d="M0,0H280V6H0Z"/>
+    </g>
+  </g>
+</svg>

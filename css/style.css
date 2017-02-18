@@ -1,0 +1,436 @@
+body{
+	background: #000;
+	font-family: 'Roboto Cndensed', sans-serif;
+}
+
+nav #logo, .about, footer{
+	user-select: none;
+}
+
+header{
+	background: linear-gradient(45deg,#9559D5, #5095F4);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+	padding: 40px 0;
+}
+
+nav, .container{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+	padding: 10px 0;
+}
+
+nav #logo, footer a#logo{
+	background-image: url(../images/vl-logo.svg);
+	background-repeat: no-repeat;
+	width: 41.14px;
+	height: 60px;
+	cursor: pointer;
+}
+
+/*FOR BURGER MENU
+nav #toggle{
+	cursor: pointer;
+	padding: 40px 45px;
+	box-sizing: border-box;
+}
+
+#toggle .burger{
+	background: #fff;
+	width: 24px;
+	height: 4px;
+	display: inline-block;
+}
+
+#toggle .burger:before, #toggle .burger:after{
+	content: '';
+	background: #fff;
+	width: 24px;
+	height: 4px;
+	display: inline-block;
+}*/
+
+header span, h1, strong{
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	line-height: 24px;
+}
+
+header span{
+	font-weight: 100;
+	padding: 120px 0 180px;
+}
+
+header strong{
+	font-weight: 700;
+}
+
+.about, .contact{
+	background: #fff;
+}
+
+.about .skill-set{
+	background: #F7F7F7;
+	width: 100%;
+	padding: 60px;
+	display: inline-block;
+	color: #1c1c1c;
+	display: flex;
+	align-items: center;
+	flex-flow: column;
+	margin-top: -60px;
+}
+
+h3{
+	font-weight: 400;
+	font-size: 14px;
+	text-align: center;
+
+}
+
+.about h3 span{
+	color: #9559D5;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.skill-list-container{
+	padding-top: 10px;
+	display: flex;
+	opacity: .8;
+	line-height: 20px;
+}
+
+.skill-list h4{
+	color: #9559D5;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.about .skill-list:nth-child(2){
+	padding: 0 10px;
+}
+
+.about .skill-list img{
+	width: 100%;
+	height: 6px;
+}
+
+.about .skill-list ul{
+	font-weight: 300;
+	font-size: 12px;
+}
+
+.about .workflow{
+	display: flex;
+	align-items: center;
+	flex-flow: column;	
+	padding: 20px 0 0;
+}
+
+.about a .scroll-down, .contact-header a .scroll-down{
+	height: 30px;
+	display: block;
+	padding: 15px 0;
+	cursor: pointer;
+}
+
+.y-float {
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.y-float:hover, .y-float:focus, .y-float:active{
+  -webkit-transform: translateY(-6px);
+  transform: translateY(-6px);
+}
+
+a{
+	text-decoration: none;
+}
+.projects{
+	position: relative;
+}
+.project{
+	width: 100%;
+	padding: 280px 0;
+	/*FOR PROJECT INFO
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	text-transform: uppercase;
+	text-align: center;*/
+	transition: all .5 ease;
+}
+
+
+
+.prueba .black-layer{
+	background: rgba(0,0,0,.5);
+	width: 100%;
+	padding: 280px 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: all .5 ease;
+}
+
+.prueba:hover .black-layer{
+	opacity: 1;
+}
+
+.black-layer h4{	
+	font-weight: 100;
+	font-size: 24px;
+	opacity: 0;
+}
+
+.black-layer p{
+	font-weight: 400;
+	font-size: 12px;
+	padding-top: 10px;
+	opacity: 0;
+}
+
+.projects .project:first-child{
+	background-image: url(../images/project-1a.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.project:nth-child(2){
+	background-image: url(../images/project-2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.project:nth-child(3){
+	background-image: url(../images/project-3.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.project:last-child{
+	background-image: url(../images/project-4.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+/*FOR CONTACT HEADER INFO: Let's talk!-->
+.contact-header{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	padding: 20px 0;
+}*/
+
+.contact form{
+	width: 80%;
+	padding: 40px 0;
+	display: flex;
+	flex-flow: column;
+	color: #1c1c1c;
+}
+
+input{
+	border-bottom: 1px solid #9559D5;	
+}
+
+input, textarea{
+	font-size: 20px;
+	font-weight: 100;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+input:focus, textarea:focus{
+	outline: none;
+}
+
+input:focus{
+	border-bottom: 1px solid #1c1c1c;	
+}
+
+form .first-line{
+	display: flex;
+	justify-content: space-between;
+}
+
+.first-line input#Name, .first-line input#Email{
+	width: 45%;
+}
+
+textarea{
+	resize: none;
+	border-bottom: none;
+}
+
+input[type=submit]{
+	color: #fff;
+	letter-spacing: 0.1em;
+	font-weight: 100;
+	text-transform: uppercase;
+	padding: 10px 15px;
+    background: #9559D5;
+    border: 1px solid #9559D5;
+	transition: all 0.5s ease;
+	cursor: pointer;
+}
+
+input[type=submit]:hover{
+	background: #824EB9;
+	border: 1px solid #824EB9;
+	outline: none;
+}
+
+input[type=submit]:active{
+	color: #1C1C1C;
+	background: #fff;
+	border: 1px solid #1C1C1C;
+	outline: none;
+}
+
+footer .container{
+	padding: 20px 0;
+}
+
+footer a#logo{
+	width: 27.434px;
+	height: 40px;
+	margin: 10px 0;
+}
+
+footer a#logo:hover{
+	opacity: .2;
+}
+
+.social{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2%;
+}
+
+.social img{
+	height: 22px;
+	opacity: 0.5;
+	transition: all .5s ease;
+	padding: 4px 10px;
+	cursor: pointer;
+}
+
+.social img:hover{
+	opacity: 1;
+}
+
+footer span{  
+	text-align: center;
+	font-size: 10px;
+	font-weight: 100;
+	color: #9559D5;
+}
+
+footer .social, footer span{
+	padding: 10px 0;
+}
+
+@media screen and (max-width: 768px) and (orientation: landscape){
+	header span{
+		padding: 40px;
+	}
+	.about .skill-set{
+		margin-top: -56px;
+		padding: 40px;
+	}	
+	.about .skill-set a, .skill-set h3{
+		display: none;
+	}
+	.about .skill-list-container{
+		padding: 0;
+	}
+	.skill-list h4{
+		font-size: 14px;
+	}
+	.about .workflow a{
+		display: none;
+	}
+	.project{
+		padding: 120px 0;
+	}
+	.contact form{
+		width: 90%;
+		padding: 10px 0;
+	}
+	form textarea{
+		height: 100px;
+	}
+	input, textarea{
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 768px) and (orientation: portrait){
+	header{
+/*		padding-bottom: 0;*/
+	}
+	header span{
+		padding: 130px 0;
+	}
+	nav, .container{
+		padding: 0;
+	}
+	.about{
+		background: #F7F7F7;
+		padding: 50px 0;
+	}
+	.about .skill-set{
+		margin-top: 0;
+		padding: 32px;
+	}
+	.skill-set h3, .skill-set a{
+		display: none;
+	}
+	.skill-list-container{
+		flex-flow: column;
+		padding-top: 0;
+	}
+	.about .skill-list:nth-child(2){
+		padding: 10px 0;
+	}
+	.about .workflow{
+		display: none;
+	}
+	.contact{
+		padding: 30px 0;
+	}
+	.contact form{
+		width: 100%;
+	}
+	form .first-line{
+		flex-flow: column;
+	}
+	.first-line input#Name, .first-line input#Email{
+		width: 100%;
+	}
+	footer a#logo{
+		margin-bottom: 26px;
+	}
+}
