@@ -160,53 +160,15 @@ h3{
 a{
 	text-decoration: none;
 }
-.projects{
-	position: relative;
-}
+
 .project{
 	width: 100%;
 	padding: 280px 0;
-	/*FOR PROJECT INFO
-	display: flex;
-	flex-flow: column;
-	align-items: center;
-	text-transform: uppercase;
-	text-align: center;*/
 	transition: all .5 ease;
-}
-
-
-
-.prueba .black-layer{
-	background: rgba(0,0,0,.5);
-	width: 100%;
-	padding: 280px 0;
-	position: absolute;
-	top: 0;
-	left: 0;
-	opacity: 0;
-	transition: all .5 ease;
-}
-
-.prueba:hover .black-layer{
-	opacity: 1;
-}
-
-.black-layer h4{	
-	font-weight: 100;
-	font-size: 24px;
-	opacity: 0;
-}
-
-.black-layer p{
-	font-weight: 400;
-	font-size: 12px;
-	padding-top: 10px;
-	opacity: 0;
 }
 
 .projects .project:first-child{
-	background-image: url(../images/project-1a.png);
+	background-image: url(../images/project-1.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -232,6 +194,7 @@ a{
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 /*FOR CONTACT HEADER INFO: Let's talk!-->
 .contact-header{
 	display: flex;
@@ -423,6 +386,9 @@ footer .social, footer span{
 	}
 	.contact form{
 		width: 100%;
+	}
+	.project:nth-child(3), .project:nth-child(4){
+	background-position: left;
 	}
 	form .first-line{
 		flex-flow: column;
