@@ -1,6 +1,6 @@
 body{
 	background: #000;
-	font-family: 'Roboto Cndensed', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 nav #logo, .about, footer{
@@ -33,6 +33,11 @@ nav #logo, footer a#logo{
 	width: 41.14px;
 	height: 60px;
 	cursor: pointer;
+	transition: opacity .5s ease;
+}
+
+#logo:hover{
+	opacity: .8;
 }
 
 /*FOR BURGER MENU
@@ -282,10 +287,6 @@ footer a#logo{
 	margin: 10px 0;
 }
 
-footer a#logo:hover{
-	opacity: .2;
-}
-
 .social{
 	display: flex;
 	justify-content: center;
@@ -295,7 +296,7 @@ footer a#logo:hover{
 
 .social img{
 	height: 22px;
-	opacity: 0.5;
+	opacity: 0.6;
 	transition: all .5s ease;
 	padding: 4px 10px;
 	cursor: pointer;
