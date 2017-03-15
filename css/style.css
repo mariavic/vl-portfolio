@@ -1,5 +1,5 @@
 body{
-	background: #000;
+	background: #fff;
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -21,17 +21,17 @@ nav, .container{
 	width: 80%;
 	margin: auto;
 	display: flex;
-	align-items: center;
+	flex-direction: column;
 	justify-content: center;
-	flex-flow: column;
+	align-items: center;
 	padding: 10px 0;
 }
 
-nav #logo, footer a#logo{
+nav #logo, footer #logo{
 	background-image: url(../images/vl-logo.svg);
 	background-repeat: no-repeat;
-	width: 41.14px;
-	height: 60px;
+	width: 35px;
+	height: 37px;
 	cursor: pointer;
 	transition: opacity .5s ease;
 }
@@ -39,28 +39,6 @@ nav #logo, footer a#logo{
 #logo:hover{
 	opacity: .8;
 }
-
-/*FOR BURGER MENU
-nav #toggle{
-	cursor: pointer;
-	padding: 40px 45px;
-	box-sizing: border-box;
-}
-
-#toggle .burger{
-	background: #fff;
-	width: 24px;
-	height: 4px;
-	display: inline-block;
-}
-
-#toggle .burger:before, #toggle .burger:after{
-	content: '';
-	background: #fff;
-	width: 24px;
-	height: 4px;
-	display: inline-block;
-}*/
 
 header span, h1, strong{
 	font-size: 20px;
@@ -277,13 +255,15 @@ input[type=submit]:active{
 	outline: none;
 }
 
+footer{
+	background: #1c1c1c;
+}
+
 footer .container{
 	padding: 20px 0;
 }
 
-footer a#logo{
-	width: 27.434px;
-	height: 40px;
+footer #logo{
 	margin: 10px 0;
 }
 
