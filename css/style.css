@@ -27,7 +27,7 @@ nav, .container{
 }
 
 nav #logo, footer #logo{
-	background-image: url(../images/vl-logo.svg);
+	background-image: url(../assets/vl-logo.svg);
 	background-repeat: no-repeat;
 	width: 35px;
 	height: 37px;
@@ -150,28 +150,28 @@ a{
 }
 
 .projects .project:first-child{
-	background-image: url(../images/project-1.png);
+	background-image: url(../assets/project-1.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 .project:nth-child(2){
-	background-image: url(../images/project-2.png);
+	background-image: url(../assets/project-2.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 .project:nth-child(3){
-	background-image: url(../images/project-3.png);
+	background-image: url(../assets/project-3.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 .project:last-child{
-	background-image: url(../images/project-4.png);
+	background-image: url(../assets/project-4.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
