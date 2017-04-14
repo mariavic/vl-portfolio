@@ -411,6 +411,9 @@ footer .social, footer span{
 	.contact{
 		padding: 30px 0;
 	}
+	.contact form{
+		width: 100%;
+	}
 	form .first-line{
 		flex-flow: column;
 		width: 100%;
