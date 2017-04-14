@@ -269,11 +269,13 @@ form .first-line{
 }
 
 textarea{
+	padding-left: 0;
 	resize: none;
 	border-bottom: none;
 }
 
 input[type=submit]{
+	-webkit-appearance: none;
 	border-radius: 0;
 	outline: none;
 	color: #fff;
