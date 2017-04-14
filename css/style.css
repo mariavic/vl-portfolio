@@ -240,6 +240,7 @@ input{
 }
 
 input, textarea{
+	border-radius: 0;
 	font-size: 20px;
 	font-weight: 100;
 	border-top: none;
@@ -272,26 +273,27 @@ textarea{
 }
 
 input[type=submit]{
+	outline: none;
 	color: #fff;
 	letter-spacing: 0.1em;
 	font-weight: 100;
 	text-transform: uppercase;
 	padding: 10px 15px;
-    background: #9559D5;
+    background-color: #9559D5;
     border: 1px solid #9559D5;
 	transition: all 0.5s ease;
 	cursor: pointer;
 }
 
 input[type=submit]:hover{
-	background: #824EB9;
+	background-color: #824EB9;
 	border: 1px solid #824EB9;
 	outline: none;
 }
 
 input[type=submit]:active{
 	color: #1C1C1C;
-	background: #fff;
+	background-color: #fff;
 	border: 1px solid #1C1C1C;
 	outline: none;
 }

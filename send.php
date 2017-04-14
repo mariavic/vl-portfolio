@@ -7,7 +7,7 @@
 
   $cuerpo = 'Remitente: ' . $nombre . '<br>';
   $cuerpo .= 'Email: ' . $mail . '<br>';
-  $cuerpo .= 'Mensaje: ' . $message . '<br>';
+  $cuerpo .= 'Mensaje: ' . $mensaje . '<br>';
 
   $destino = 'vicky.8525@gmail.com';
   $asunto = $asuntoUsuario;
