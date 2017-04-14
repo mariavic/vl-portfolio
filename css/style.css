@@ -240,6 +240,8 @@ input{
 }
 
 input, textarea{
+	-webkit-border-radius:0;
+	-webkit-appearance: none;	
 	padding-left: 0;
 	border-radius: 0;
 	font-size: 20px;
@@ -275,7 +277,6 @@ textarea{
 }
 
 input[type=submit]{
-	-webkit-appearance: none;
 	border-radius: 0;
 	outline: none;
 	color: #fff;
