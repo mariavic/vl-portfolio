@@ -160,21 +160,21 @@ a{
 	background-image: url(../assets/project-8.gif);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: right;
+	background-position: left;
 }
 
 .project:nth-child(3){
 	background-image: url(../assets/project-7.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: right;
 }
 
 .project:nth-child(4){
 	background-image: url(../assets/project-5.gif);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: left;
+	background-position: right;
 }
 
 .project:nth-child(5){
@@ -195,14 +195,14 @@ a{
 	background-image: url(../assets/project-3.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: left;
 }
 
 .project:nth-child(8){
 	background-image: url(../assets/project-10.gif);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: right;
 }
 
 .project:nth-child(9){
@@ -216,7 +216,7 @@ a{
 	background-image: url(../assets/project-4.gif);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: right;
 }
 
 /*FOR CONTACT HEADER INFO: Let's talk!-->
@@ -408,9 +408,6 @@ footer .social, footer span{
 	}
 	.contact form{
 		width: 100%;
-	}
-	.project:nth-child(3), .project:nth-child(4){
-	background-position: left;
 	}
 	form .first-line{
 		flex-flow: column;
