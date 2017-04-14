@@ -375,9 +375,6 @@ footer .social, footer span{
 	}
 }
 @media screen and (max-width: 768px) and (orientation: portrait){
-	header{
-/*		padding-bottom: 0;*/
-	}
 	header span{
 		padding: 130px 0;
 	}
@@ -414,7 +411,7 @@ footer .social, footer span{
 	form .first-line{
 		flex-flow: column;
 	}
-	.first-line input#Name, .first-line input#Email{
+	.first-line input#Name, .first-line input#Email, input#subject{
 		width: 100%;
 	}
 	footer a#logo{
