@@ -157,21 +157,63 @@ a{
 }
 
 .project:nth-child(2){
+	background-image: url(../assets/project-8.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.project:nth-child(3){
+	background-image: url(../assets/project-7.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.project:nth-child(4){
+	background-image: url(../assets/project-5.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.project:nth-child(5){
 	background-image: url(../assets/project-2.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
-.project:nth-child(3){
+.project:nth-child(6){
+	background-image: url(../assets/project-9.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.project:nth-child(7){
 	background-image: url(../assets/project-3.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
+.project:nth-child(8){
+	background-image: url(../assets/project-10.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.project:nth-child(9){
+	background-image: url(../assets/project-11.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 .project:last-child{
-	background-image: url(../assets/project-4.png);
+	background-image: url(../assets/project-4.gif);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
