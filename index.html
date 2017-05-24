@@ -38,7 +38,7 @@
 					<img class="scroll-down y-float" src="assets/arrow.svg"/>
 				</a>
 				<div class="skill-list-container">
-					<article class="skill-list">
+					<article class="skill-list smooth-entrance">
 						<h4>Graphic & Web Design Tools</h4>
 						<img src="assets/bar-gd.svg">
 						<ul>
@@ -49,7 +49,7 @@
 							<li>Adobe After Effects</li>
 						</ul>
 					</article>
-					<article class="skill-list">
+					<article class="skill-list smooth-entrance">
 						<h4>Front End Development</h4>
 						<img src="assets/bar-fed.svg">
 						<ul>
@@ -61,7 +61,7 @@
 							<li>Lean UX</li>						
 						</ul>										
 					</article>
-					<article class="skill-list">
+					<article class="skill-list smooth-entrance">
 						<h4>Other Interests</h4>
 						<img src="assets/bar-oi.svg">
 						<ul>
@@ -72,7 +72,7 @@
 					</article>
 				</div>	
 			</span>
-			<div class="workflow">
+			<div class="workflow smooth-entrance">
 				<h3>My Workflow? <span>Research, learn, iterate, launch.</span> Take a look!</h3>
 				<a href="#projects" alt="scroll-down">
 					<img class="scroll-down y-float" src="assets/arrow.svg"/>
@@ -81,14 +81,14 @@
 		</div>
 	</section>
 	<section class="projects" id="projects">
-		<div class="project"></div>	
-		<div class="project"></div>
-		<div class="project"></div>
-		<div class="project"></div>
+		<div class="project smooth-entrance"></div>	
+		<div class="project smooth-entrance"></div>
+		<div class="project smooth-entrance"></div>
+		<div class="project smooth-entrance"></div>
 	</section>
 	<section class="contact">
 		<div class="container">
-			<form action="send.php" method="POST">
+			<form class="smooth-entrance" action="send.php" method="POST">
 				<div class="first-line">
 					<input type="text" name="Name" id="Name" placeholder="Name" required>
 					<input type="email" name="Email" id="Email" placeholder="Email" required>
@@ -101,8 +101,8 @@
 	</section>
 	<footer>
 		<div class="container">
-			<a id="logo" href="#logo"></a>
-			<ul class="social">
+			<a id="logo" class="smooth-entrance" href="#logo"></a>
+			<ul class="social smooth-entrance">
 				<li>
 					<a href="assets/ResumeVictoriaLopez.pdf" target="_blank">
 						<img src="assets/resume-icon.svg" alt="Resume">
@@ -119,8 +119,11 @@
 					</a>
 				</li>
 			</ul>
-			<span>© 2017 Victoria Lopez. All Rights Reserved.</span>
+			<span class="smooth-entrance">© 2017 Victoria Lopez. All Rights Reserved.</span>
 		</div>
 	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="scripts/app.js"></script>	
 </body>
 </html>
